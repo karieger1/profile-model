@@ -5,3 +5,13 @@ var UserModel = Backbone.Model.extend({
 		role: 'Developer'
 	}
 });
+
+var App = Backbone.Router.extend({
+
+  routes: {
+    "home":         "home",    
+    "edit":        "edit",  
+    "link": 		"search"   
+  },
+
+  
