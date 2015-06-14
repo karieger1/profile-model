@@ -6,12 +6,12 @@ var UserModel = Backbone.Model.extend({
 	}
 });
 
-var App = Backbone.Router.extend({
+// var App = Backbone.Router.extend({
 
-  routes: {
-    "home":         "home",    
-    "edit":        "edit",  
-    "link": 		"search"   
-  },
+//   routes: {
+//     "home":         "home",    
+//     "edit":        "edit",  
+//     "link": 		"search"   
+//   },
 
   
